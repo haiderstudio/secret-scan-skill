@@ -1,0 +1,11 @@
+diff --git a/settings.py b/settings.py
+index 0000000..3333333 100644
+--- a/settings.py
++++ b/settings.py
+@@ -1,2 +1,6 @@
+ import os
+ 
++API_KEY = os.environ["API_KEY"]
++api_key = "YOUR_API_KEY_HERE"
++example_token = "EXAMPLE-1234-ABCD"
++aws_key = "AKIAIOSFODNN7EXAMPLE"
